@@ -65,6 +65,23 @@ Thumbs.db
 *.h5
 *.joblib
 
+# LaTeX build artifacts
+reports/*.aux
+reports/*.bbl
+reports/*.bcf
+reports/*.blg
+reports/*.fdb_latexmk
+reports/*.fls
+reports/*.log
+reports/*.lof
+reports/*.lot
+reports/*.out
+reports/*.run.xml
+reports/*.synctex.gz
+reports/*.toc
+reports/*.pdf
+
+
 # Environment variables
 .env
 .env.local
