@@ -1,21 +1,13 @@
+# ==============================
 # Python
+# ==============================
 __pycache__/
 *.py[cod]
-*$py.class
 *.so
 .Python
 build/
-develop-eggs/
 dist/
-downloads/
-eggs/
 .eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -24,48 +16,50 @@ wheels/
 venv/
 env/
 ENV/
-.venv
+.venv/
 
-# Jupyter Notebook
-.ipynb_checkpoints
-*.ipynb_checkpoints/
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
 
-# Data files (keep structure, ignore data)
-data/raw/*
-data/interim/*
-data/processed/*
-!data/raw/.gitkeep
-!data/interim/.gitkeep
-!data/processed/.gitkeep
+# ==============================
+# Data (raw datasets)
+# ==============================
+data/raw/
+data/interim/
+data/processed/
+*.parquet
+*.pkl
+*.joblib
+*.h5
+*.npz
 
-# Reports (keep structure, ignore generated files)
-reports/figures/*
-reports/tables/*
-!reports/figures/.gitkeep
-!reports/tables/.gitkeep
-
+# ==============================
 # Logs
-logs/*
-!logs/.gitkeep
+# ==============================
+logs/
 *.log
 
+# ==============================
 # IDE
+# ==============================
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
+# ==============================
 # OS
+# ==============================
 .DS_Store
 Thumbs.db
 
-# Models
-*.pkl
-*.h5
-*.joblib
-
+# ==============================
 # LaTeX build artifacts
+# (figures folder stays!)
+# ==============================
 reports/*.aux
 reports/*.bbl
 reports/*.bcf
@@ -80,47 +74,10 @@ reports/*.run.xml
 reports/*.synctex.gz
 reports/*.toc
 reports/*.pdf
+reports/*-blx.bib
 
-
+# ==============================
 # Environment variables
+# ==============================
 .env
 .env.local
-
-# Python
-__pycache__/
-*.pyc
-.venv/
-
-# IDE
-.vscode/
-
-# Logs
-logs/
-
-# Data
-data/raw/
-data/interim/
-data/processed/
-*.csv
-*.parquet
-*.pkl
-*.joblib
-*.h5
-*.npz
-
-# LaTeX build (keep figures)
-reports/*.aux
-reports/*.bbl
-reports/*.blg
-reports/*.toc
-reports/*.out
-reports/*.log
-reports/*.fls
-reports/*.lof
-reports/*.lot
-reports/*.xdv
-reports/*.fdb_latexmk
-reports/*.run.xml
-reports/*.synctex.gz
-reports/*-blx.bib
-reports/*.pdf
