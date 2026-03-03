@@ -85,3 +85,42 @@ reports/*.pdf
 # Environment variables
 .env
 .env.local
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.vscode/
+
+# Logs
+logs/
+
+# Data
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.parquet
+*.pkl
+*.joblib
+*.h5
+*.npz
+
+# LaTeX build (keep figures)
+reports/*.aux
+reports/*.bbl
+reports/*.blg
+reports/*.toc
+reports/*.out
+reports/*.log
+reports/*.fls
+reports/*.lof
+reports/*.lot
+reports/*.xdv
+reports/*.fdb_latexmk
+reports/*.run.xml
+reports/*.synctex.gz
+reports/*-blx.bib
+reports/*.pdf
