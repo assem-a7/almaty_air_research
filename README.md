@@ -17,6 +17,22 @@ This project models pollution dynamics and builds predictive models to analyze a
 
 ---
 
+## Data Source
+
+Air quality data was retrieved using the Open-Meteo Air Quality API.
+
+- Source: https://air-quality-api.open-meteo.com/v1/air-quality
+- Location: Almaty, Kazakhstan (43.222°N, 76.8512°E)
+- Timezone: Asia/Almaty
+- Date range: 2024-01-01 to 2025-12-31
+- Frequency: Hourly observations
+- Total observations: 17,544
+- Missing values: 0 (PM2.5, PM10)
+
+Data acquisition is fully automated via `src/data_download.py`.
+
+---
+
 ## Methodology
 
 The project follows a research-oriented workflow:
