@@ -87,26 +87,24 @@ almaty_air_research/
 └── README.md
 
 
-
 ---
 
-## How to Run
+## ⚙️ How to Run
 
 ### 1. Install dependencies
 
 pip install -r requirements.txt
 
-Run forecasting scripts
+2. Run forecasting scripts
 python src/modeling_forecast_pm25_t1.py
 or
 python src/modeling_forecast_pm10_t1.py
 
 3. Optional: Run notebooks
 
-Open Jupyter Notebook and execute notebooks inside src/notebooks/.
+Open Jupyter Notebook and execute notebooks inside src/notebooks/
 
 🛠 Technologies Used
-
 Python
 pandas
 NumPy
@@ -116,7 +114,6 @@ statsmodels
 Jupyter Notebook
 
 📌 Notes
-
 Raw datasets are not included in this repository.
 
 All figures are reproducible using the provided pipeline.
@@ -124,6 +121,7 @@ All figures are reproducible using the provided pipeline.
 Configuration parameters are centralized in src/config.py.
 
 👩‍💻 Author
+
 Abdikarim Assem
 Eurasian National University (ENU)
 Astana, Kazakhstan
